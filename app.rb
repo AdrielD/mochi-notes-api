@@ -3,7 +3,6 @@ require 'sinatra/json'
 require 'mongoid'
 require './config/mongoid'
 require './models/note'
-require './operations/notes/create'
 
 set :default_content_type, :json
 # set :environment, :development
